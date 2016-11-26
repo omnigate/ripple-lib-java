@@ -30,6 +30,16 @@ abstract public class Format {
         requirementEnumMap.put(f, r);
     }
 
+    protected void required(Field f) {
+        requirementEnumMap.put(f, Requirement.REQUIRED);
+    }
+    protected void optional(Field f) {
+        requirementEnumMap.put(f, Requirement.OPTIONAL);
+    }
+    protected void nonDefault(Field f) {
+        requirementEnumMap.put(f, Requirement.DEFAULT);
+    }
+
     public static enum Requirement {
         INVALID(-1),
         REQUIRED( 0),

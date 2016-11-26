@@ -102,8 +102,6 @@ public class LEFormat extends Format {
 
     public static LEFormat Ticket = new LEFormat(
             LedgerEntryType.Ticket,
-            Field.PreviousTxnID,       Requirement.REQUIRED,
-            Field.PreviousTxnLgrSeq,   Requirement.REQUIRED,
             Field.Account,             Requirement.REQUIRED,
             Field.Sequence,            Requirement.REQUIRED,
             Field.OwnerNode,           Requirement.REQUIRED,
@@ -136,7 +134,7 @@ public class LEFormat extends Format {
             Field.PreviousTxnLgrSeq,   Requirement.REQUIRED,
             Field.OwnerNode,           Requirement.REQUIRED,
 
-            Field.Digest,              Requirement.OPTIONAL,
+            Field.Condition,              Requirement.OPTIONAL,
             Field.CancelAfter,         Requirement.OPTIONAL,
             Field.FinishAfter,         Requirement.OPTIONAL,
             Field.SourceTag,           Requirement.OPTIONAL,
@@ -174,5 +172,22 @@ public class LEFormat extends Format {
             Field.ReferenceFeeUnits,   Requirement.REQUIRED,
             Field.ReserveBase,         Requirement.REQUIRED,
             Field.ReserveIncrement,    Requirement.REQUIRED
+    );
+
+    public static LEFormat PayChannel = new LEFormat(
+            LedgerEntryType.PayChannel,
+            Field.Account, Requirement.REQUIRED,
+            Field.Destination, Requirement.REQUIRED,
+            Field.Amount, Requirement.REQUIRED,
+            Field.Balance, Requirement.REQUIRED,
+            Field.PublicKey, Requirement.REQUIRED,
+            Field.SettleDelay, Requirement.REQUIRED,
+            Field.Expiration, Requirement.OPTIONAL,
+            Field.CancelAfter, Requirement.OPTIONAL,
+            Field.SourceTag, Requirement.OPTIONAL,
+            Field.DestinationTag, Requirement.OPTIONAL,
+            Field.OwnerNode, Requirement.REQUIRED,
+            Field.PreviousTxnID, Requirement.REQUIRED,
+            Field.PreviousTxnLgrSeq, Requirement.REQUIRED
     );
 }

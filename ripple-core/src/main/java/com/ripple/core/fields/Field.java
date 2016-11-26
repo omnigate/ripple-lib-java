@@ -51,7 +51,7 @@ public enum Field {
     CancelAfter(36, Type.UInt32),
     FinishAfter(37, Type.UInt32),
     SignerListID(38, Type.UInt32),
-
+    SettleDelay(39, Type.UInt32),
 
     IndexNext(1, Type.UInt64),
     IndexPrevious(2, Type.UInt64),
@@ -80,6 +80,7 @@ public enum Field {
     Amendment(19, Type.Hash256),
     TicketID(20, Type.Hash256),
     Digest(21, Type.Hash256),
+    Channel(22, Type.Hash256),
 
     hash(257, Type.Hash256),
     index(258, Type.Hash256),
@@ -117,8 +118,9 @@ public enum Field {
     MemoType(12, Type.Blob),
     MemoData(13, Type.Blob),
     MemoFormat(14, Type.Blob),
-
-    Proof(17, Type.Blob),
+    Fulfillment(16, Type.Blob),
+    Condition(17, Type.Blob),
+    MasterSignature(18, Type.Blob),
 
     Account(1, Type.AccountID),
     Owner(2, Type.AccountID),
