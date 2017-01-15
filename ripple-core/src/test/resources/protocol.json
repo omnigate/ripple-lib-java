@@ -1,0 +1,1854 @@
+{
+	"fields" : 
+	[
+		
+		{
+			"code" : -1,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "",
+			"type" : "-2",
+			"value" : 0
+		},
+		
+		{
+			"code" : 0,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "",
+			"type" : "-2",
+			"value" : 0
+		},
+		
+		{
+			"code" : 65537,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "LedgerEntryType",
+			"type" : "UInt16",
+			"value" : 1
+		},
+		
+		{
+			"code" : 65538,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "TransactionType",
+			"type" : "UInt16",
+			"value" : 2
+		},
+		
+		{
+			"code" : 65539,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "SignerWeight",
+			"type" : "UInt16",
+			"value" : 3
+		},
+		
+		{
+			"code" : 131074,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Flags",
+			"type" : "UInt32",
+			"value" : 2
+		},
+		
+		{
+			"code" : 131075,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "SourceTag",
+			"type" : "UInt32",
+			"value" : 3
+		},
+		
+		{
+			"code" : 131076,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Sequence",
+			"type" : "UInt32",
+			"value" : 4
+		},
+		
+		{
+			"code" : 131077,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "PreviousTxnLgrSeq",
+			"type" : "UInt32",
+			"value" : 5
+		},
+		
+		{
+			"code" : 131078,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "LedgerSequence",
+			"type" : "UInt32",
+			"value" : 6
+		},
+		
+		{
+			"code" : 131079,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "CloseTime",
+			"type" : "UInt32",
+			"value" : 7
+		},
+		
+		{
+			"code" : 131080,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "ParentCloseTime",
+			"type" : "UInt32",
+			"value" : 8
+		},
+		
+		{
+			"code" : 131081,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "SigningTime",
+			"type" : "UInt32",
+			"value" : 9
+		},
+		
+		{
+			"code" : 131082,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Expiration",
+			"type" : "UInt32",
+			"value" : 10
+		},
+		
+		{
+			"code" : 131083,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "TransferRate",
+			"type" : "UInt32",
+			"value" : 11
+		},
+		
+		{
+			"code" : 131084,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "WalletSize",
+			"type" : "UInt32",
+			"value" : 12
+		},
+		
+		{
+			"code" : 131085,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "OwnerCount",
+			"type" : "UInt32",
+			"value" : 13
+		},
+		
+		{
+			"code" : 131086,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "DestinationTag",
+			"type" : "UInt32",
+			"value" : 14
+		},
+		
+		{
+			"code" : 131088,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "HighQualityIn",
+			"type" : "UInt32",
+			"value" : 16
+		},
+		
+		{
+			"code" : 131089,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "HighQualityOut",
+			"type" : "UInt32",
+			"value" : 17
+		},
+		
+		{
+			"code" : 131090,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "LowQualityIn",
+			"type" : "UInt32",
+			"value" : 18
+		},
+		
+		{
+			"code" : 131091,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "LowQualityOut",
+			"type" : "UInt32",
+			"value" : 19
+		},
+		
+		{
+			"code" : 131092,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "QualityIn",
+			"type" : "UInt32",
+			"value" : 20
+		},
+		
+		{
+			"code" : 131093,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "QualityOut",
+			"type" : "UInt32",
+			"value" : 21
+		},
+		
+		{
+			"code" : 131094,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "StampEscrow",
+			"type" : "UInt32",
+			"value" : 22
+		},
+		
+		{
+			"code" : 131095,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "BondAmount",
+			"type" : "UInt32",
+			"value" : 23
+		},
+		
+		{
+			"code" : 131096,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "LoadFee",
+			"type" : "UInt32",
+			"value" : 24
+		},
+		
+		{
+			"code" : 131097,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "OfferSequence",
+			"type" : "UInt32",
+			"value" : 25
+		},
+		
+		{
+			"code" : 131098,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "FirstLedgerSequence",
+			"type" : "UInt32",
+			"value" : 26
+		},
+		
+		{
+			"code" : 131099,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "LastLedgerSequence",
+			"type" : "UInt32",
+			"value" : 27
+		},
+		
+		{
+			"code" : 131100,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "TransactionIndex",
+			"type" : "UInt32",
+			"value" : 28
+		},
+		
+		{
+			"code" : 131101,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "OperationLimit",
+			"type" : "UInt32",
+			"value" : 29
+		},
+		
+		{
+			"code" : 131102,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "ReferenceFeeUnits",
+			"type" : "UInt32",
+			"value" : 30
+		},
+		
+		{
+			"code" : 131103,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "ReserveBase",
+			"type" : "UInt32",
+			"value" : 31
+		},
+		
+		{
+			"code" : 131104,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "ReserveIncrement",
+			"type" : "UInt32",
+			"value" : 32
+		},
+		
+		{
+			"code" : 131105,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "SetFlag",
+			"type" : "UInt32",
+			"value" : 33
+		},
+		
+		{
+			"code" : 131106,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "ClearFlag",
+			"type" : "UInt32",
+			"value" : 34
+		},
+		
+		{
+			"code" : 131107,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "SignerQuorum",
+			"type" : "UInt32",
+			"value" : 35
+		},
+		
+		{
+			"code" : 131108,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "CancelAfter",
+			"type" : "UInt32",
+			"value" : 36
+		},
+		
+		{
+			"code" : 131109,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "FinishAfter",
+			"type" : "UInt32",
+			"value" : 37
+		},
+		
+		{
+			"code" : 131110,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "SignerListID",
+			"type" : "UInt32",
+			"value" : 38
+		},
+		
+		{
+			"code" : 131111,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "SettleDelay",
+			"type" : "UInt32",
+			"value" : 39
+		},
+		
+		{
+			"code" : 196609,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "IndexNext",
+			"type" : "UInt64",
+			"value" : 1
+		},
+		
+		{
+			"code" : 196610,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "IndexPrevious",
+			"type" : "UInt64",
+			"value" : 2
+		},
+		
+		{
+			"code" : 196611,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "BookNode",
+			"type" : "UInt64",
+			"value" : 3
+		},
+		
+		{
+			"code" : 196612,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "OwnerNode",
+			"type" : "UInt64",
+			"value" : 4
+		},
+		
+		{
+			"code" : 196613,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "BaseFee",
+			"type" : "UInt64",
+			"value" : 5
+		},
+		
+		{
+			"code" : 196614,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "ExchangeRate",
+			"type" : "UInt64",
+			"value" : 6
+		},
+		
+		{
+			"code" : 196615,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "LowNode",
+			"type" : "UInt64",
+			"value" : 7
+		},
+		
+		{
+			"code" : 196616,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "HighNode",
+			"type" : "UInt64",
+			"value" : 8
+		},
+		
+		{
+			"code" : 262145,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "EmailHash",
+			"type" : "Hash128",
+			"value" : 1
+		},
+		
+		{
+			"code" : 327681,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "LedgerHash",
+			"type" : "Hash256",
+			"value" : 1
+		},
+		
+		{
+			"code" : 327682,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "ParentHash",
+			"type" : "Hash256",
+			"value" : 2
+		},
+		
+		{
+			"code" : 327683,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "TransactionHash",
+			"type" : "Hash256",
+			"value" : 3
+		},
+		
+		{
+			"code" : 327684,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "AccountHash",
+			"type" : "Hash256",
+			"value" : 4
+		},
+		
+		{
+			"code" : 327685,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "PreviousTxnID",
+			"type" : "Hash256",
+			"value" : 5
+		},
+		
+		{
+			"code" : 327686,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "LedgerIndex",
+			"type" : "Hash256",
+			"value" : 6
+		},
+		
+		{
+			"code" : 327687,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "WalletLocator",
+			"type" : "Hash256",
+			"value" : 7
+		},
+		
+		{
+			"code" : 327688,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "RootIndex",
+			"type" : "Hash256",
+			"value" : 8
+		},
+		
+		{
+			"code" : 327689,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "AccountTxnID",
+			"type" : "Hash256",
+			"value" : 9
+		},
+		
+		{
+			"code" : 327696,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "BookDirectory",
+			"type" : "Hash256",
+			"value" : 16
+		},
+		
+		{
+			"code" : 327697,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "InvoiceID",
+			"type" : "Hash256",
+			"value" : 17
+		},
+		
+		{
+			"code" : 327698,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Nickname",
+			"type" : "Hash256",
+			"value" : 18
+		},
+		
+		{
+			"code" : 327699,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Amendment",
+			"type" : "Hash256",
+			"value" : 19
+		},
+		
+		{
+			"code" : 327700,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "TicketID",
+			"type" : "Hash256",
+			"value" : 20
+		},
+		
+		{
+			"code" : 327701,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Digest",
+			"type" : "Hash256",
+			"value" : 21
+		},
+		
+		{
+			"code" : 327702,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Channel",
+			"type" : "Hash256",
+			"value" : 22
+		},
+		
+		{
+			"code" : 393217,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Amount",
+			"type" : "Amount",
+			"value" : 1
+		},
+		
+		{
+			"code" : 393218,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Balance",
+			"type" : "Amount",
+			"value" : 2
+		},
+		
+		{
+			"code" : 393219,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "LimitAmount",
+			"type" : "Amount",
+			"value" : 3
+		},
+		
+		{
+			"code" : 393220,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "TakerPays",
+			"type" : "Amount",
+			"value" : 4
+		},
+		
+		{
+			"code" : 393221,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "TakerGets",
+			"type" : "Amount",
+			"value" : 5
+		},
+		
+		{
+			"code" : 393222,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "LowLimit",
+			"type" : "Amount",
+			"value" : 6
+		},
+		
+		{
+			"code" : 393223,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "HighLimit",
+			"type" : "Amount",
+			"value" : 7
+		},
+		
+		{
+			"code" : 393224,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Fee",
+			"type" : "Amount",
+			"value" : 8
+		},
+		
+		{
+			"code" : 393225,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "SendMax",
+			"type" : "Amount",
+			"value" : 9
+		},
+		
+		{
+			"code" : 393226,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "DeliverMin",
+			"type" : "Amount",
+			"value" : 10
+		},
+		
+		{
+			"code" : 393232,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "MinimumOffer",
+			"type" : "Amount",
+			"value" : 16
+		},
+		
+		{
+			"code" : 393233,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "RippleEscrow",
+			"type" : "Amount",
+			"value" : 17
+		},
+		
+		{
+			"code" : 393234,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "DeliveredAmount",
+			"type" : "Amount",
+			"value" : 18
+		},
+		
+		{
+			"code" : 458753,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "PublicKey",
+			"type" : "Blob",
+			"value" : 1
+		},
+		
+		{
+			"code" : 458754,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "MessageKey",
+			"type" : "Blob",
+			"value" : 2
+		},
+		
+		{
+			"code" : 458755,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "SigningPubKey",
+			"type" : "Blob",
+			"value" : 3
+		},
+		
+		{
+			"code" : 458756,
+			"isBinary" : true,
+			"isSigningField" : false,
+			"name" : "TxnSignature",
+			"type" : "Blob",
+			"value" : 4
+		},
+		
+		{
+			"code" : 458758,
+			"isBinary" : true,
+			"isSigningField" : false,
+			"name" : "Signature",
+			"type" : "Blob",
+			"value" : 6
+		},
+		
+		{
+			"code" : 458759,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Domain",
+			"type" : "Blob",
+			"value" : 7
+		},
+		
+		{
+			"code" : 458760,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "FundCode",
+			"type" : "Blob",
+			"value" : 8
+		},
+		
+		{
+			"code" : 458761,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "RemoveCode",
+			"type" : "Blob",
+			"value" : 9
+		},
+		
+		{
+			"code" : 458762,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "ExpireCode",
+			"type" : "Blob",
+			"value" : 10
+		},
+		
+		{
+			"code" : 458763,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "CreateCode",
+			"type" : "Blob",
+			"value" : 11
+		},
+		
+		{
+			"code" : 458764,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "MemoType",
+			"type" : "Blob",
+			"value" : 12
+		},
+		
+		{
+			"code" : 458765,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "MemoData",
+			"type" : "Blob",
+			"value" : 13
+		},
+		
+		{
+			"code" : 458766,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "MemoFormat",
+			"type" : "Blob",
+			"value" : 14
+		},
+		
+		{
+			"code" : 458768,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Fulfillment",
+			"type" : "Blob",
+			"value" : 16
+		},
+		
+		{
+			"code" : 458769,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Condition",
+			"type" : "Blob",
+			"value" : 17
+		},
+		
+		{
+			"code" : 458770,
+			"isBinary" : true,
+			"isSigningField" : false,
+			"name" : "MasterSignature",
+			"type" : "Blob",
+			"value" : 18
+		},
+		
+		{
+			"code" : 524289,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Account",
+			"type" : "AccountID",
+			"value" : 1
+		},
+		
+		{
+			"code" : 524290,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Owner",
+			"type" : "AccountID",
+			"value" : 2
+		},
+		
+		{
+			"code" : 524291,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Destination",
+			"type" : "AccountID",
+			"value" : 3
+		},
+		
+		{
+			"code" : 524292,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Issuer",
+			"type" : "AccountID",
+			"value" : 4
+		},
+		
+		{
+			"code" : 524295,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Target",
+			"type" : "AccountID",
+			"value" : 7
+		},
+		
+		{
+			"code" : 524296,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "RegularKey",
+			"type" : "AccountID",
+			"value" : 8
+		},
+		
+		{
+			"code" : 917506,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "TransactionMetaData",
+			"type" : "STObject",
+			"value" : 2
+		},
+		
+		{
+			"code" : 917507,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "CreatedNode",
+			"type" : "STObject",
+			"value" : 3
+		},
+		
+		{
+			"code" : 917508,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "DeletedNode",
+			"type" : "STObject",
+			"value" : 4
+		},
+		
+		{
+			"code" : 917509,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "ModifiedNode",
+			"type" : "STObject",
+			"value" : 5
+		},
+		
+		{
+			"code" : 917510,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "PreviousFields",
+			"type" : "STObject",
+			"value" : 6
+		},
+		
+		{
+			"code" : 917511,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "FinalFields",
+			"type" : "STObject",
+			"value" : 7
+		},
+		
+		{
+			"code" : 917512,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "NewFields",
+			"type" : "STObject",
+			"value" : 8
+		},
+		
+		{
+			"code" : 917513,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "TemplateEntry",
+			"type" : "STObject",
+			"value" : 9
+		},
+		
+		{
+			"code" : 917514,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Memo",
+			"type" : "STObject",
+			"value" : 10
+		},
+		
+		{
+			"code" : 917515,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "SignerEntry",
+			"type" : "STObject",
+			"value" : 11
+		},
+		
+		{
+			"code" : 917520,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Signer",
+			"type" : "STObject",
+			"value" : 16
+		},
+		
+		{
+			"code" : 917522,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Majority",
+			"type" : "STObject",
+			"value" : 18
+		},
+		
+		{
+			"code" : 983043,
+			"isBinary" : true,
+			"isSigningField" : false,
+			"name" : "Signers",
+			"type" : "STArray",
+			"value" : 3
+		},
+		
+		{
+			"code" : 983044,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "SignerEntries",
+			"type" : "STArray",
+			"value" : 4
+		},
+		
+		{
+			"code" : 983045,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Template",
+			"type" : "STArray",
+			"value" : 5
+		},
+		
+		{
+			"code" : 983046,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Necessary",
+			"type" : "STArray",
+			"value" : 6
+		},
+		
+		{
+			"code" : 983047,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Sufficient",
+			"type" : "STArray",
+			"value" : 7
+		},
+		
+		{
+			"code" : 983048,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "AffectedNodes",
+			"type" : "STArray",
+			"value" : 8
+		},
+		
+		{
+			"code" : 983049,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Memos",
+			"type" : "STArray",
+			"value" : 9
+		},
+		
+		{
+			"code" : 983056,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Majorities",
+			"type" : "STArray",
+			"value" : 16
+		},
+		
+		{
+			"code" : 1048577,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "CloseResolution",
+			"type" : "UInt8",
+			"value" : 1
+		},
+		
+		{
+			"code" : 1048578,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Method",
+			"type" : "UInt8",
+			"value" : 2
+		},
+		
+		{
+			"code" : 1048579,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "TransactionResult",
+			"type" : "UInt8",
+			"value" : 3
+		},
+		
+		{
+			"code" : 1114113,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "TakerPaysCurrency",
+			"type" : "Hash160",
+			"value" : 1
+		},
+		
+		{
+			"code" : 1114114,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "TakerPaysIssuer",
+			"type" : "Hash160",
+			"value" : 2
+		},
+		
+		{
+			"code" : 1114115,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "TakerGetsCurrency",
+			"type" : "Hash160",
+			"value" : 3
+		},
+		
+		{
+			"code" : 1114116,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "TakerGetsIssuer",
+			"type" : "Hash160",
+			"value" : 4
+		},
+		
+		{
+			"code" : 1179649,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Paths",
+			"type" : "PathSet",
+			"value" : 1
+		},
+		
+		{
+			"code" : 1245185,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Indexes",
+			"type" : "Vector256",
+			"value" : 1
+		},
+		
+		{
+			"code" : 1245186,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Hashes",
+			"type" : "Vector256",
+			"value" : 2
+		},
+		
+		{
+			"code" : 1245187,
+			"isBinary" : true,
+			"isSigningField" : true,
+			"name" : "Amendments",
+			"type" : "Vector256",
+			"value" : 3
+		}
+	],
+	"ledgerEntries" : 
+	[
+		
+		{
+			"fields" : 
+			[
+				[ "LedgerIndex", "OPTIONAL" ],
+				[ "LedgerEntryType", "REQUIRED" ],
+				[ "Flags", "REQUIRED" ],
+				[ "OwnerNode", "REQUIRED" ],
+				[ "SignerQuorum", "REQUIRED" ],
+				[ "SignerEntries", "REQUIRED" ],
+				[ "SignerListID", "REQUIRED" ],
+				[ "PreviousTxnID", "REQUIRED" ],
+				[ "PreviousTxnLgrSeq", "REQUIRED" ]
+			],
+			"name" : "SignerList",
+			"ordinal" : 83
+		},
+		
+		{
+			"fields" : 
+			[
+				[ "LedgerIndex", "OPTIONAL" ],
+				[ "LedgerEntryType", "REQUIRED" ],
+				[ "Flags", "REQUIRED" ],
+				[ "Account", "REQUIRED" ],
+				[ "Sequence", "REQUIRED" ],
+				[ "OwnerNode", "REQUIRED" ],
+				[ "Target", "OPTIONAL" ],
+				[ "Expiration", "OPTIONAL" ]
+			],
+			"name" : "Ticket",
+			"ordinal" : 84
+		},
+		
+		{
+			"fields" : 
+			[
+				[ "LedgerIndex", "OPTIONAL" ],
+				[ "LedgerEntryType", "REQUIRED" ],
+				[ "Flags", "REQUIRED" ],
+				[ "Account", "REQUIRED" ],
+				[ "Sequence", "REQUIRED" ],
+				[ "Balance", "REQUIRED" ],
+				[ "OwnerCount", "REQUIRED" ],
+				[ "PreviousTxnID", "REQUIRED" ],
+				[ "PreviousTxnLgrSeq", "REQUIRED" ],
+				[ "AccountTxnID", "OPTIONAL" ],
+				[ "RegularKey", "OPTIONAL" ],
+				[ "EmailHash", "OPTIONAL" ],
+				[ "WalletLocator", "OPTIONAL" ],
+				[ "WalletSize", "OPTIONAL" ],
+				[ "MessageKey", "OPTIONAL" ],
+				[ "TransferRate", "OPTIONAL" ],
+				[ "Domain", "OPTIONAL" ]
+			],
+			"name" : "AccountRoot",
+			"ordinal" : 97
+		},
+		
+		{
+			"fields" : 
+			[
+				[ "LedgerIndex", "OPTIONAL" ],
+				[ "LedgerEntryType", "REQUIRED" ],
+				[ "Flags", "REQUIRED" ],
+				[ "Owner", "OPTIONAL" ],
+				[ "TakerPaysCurrency", "OPTIONAL" ],
+				[ "TakerPaysIssuer", "OPTIONAL" ],
+				[ "TakerGetsCurrency", "OPTIONAL" ],
+				[ "TakerGetsIssuer", "OPTIONAL" ],
+				[ "ExchangeRate", "OPTIONAL" ],
+				[ "Indexes", "REQUIRED" ],
+				[ "RootIndex", "REQUIRED" ],
+				[ "IndexNext", "OPTIONAL" ],
+				[ "IndexPrevious", "OPTIONAL" ]
+			],
+			"name" : "DirectoryNode",
+			"ordinal" : 100
+		},
+		
+		{
+			"fields" : 
+			[
+				[ "LedgerIndex", "OPTIONAL" ],
+				[ "LedgerEntryType", "REQUIRED" ],
+				[ "Flags", "REQUIRED" ],
+				[ "Amendments", "OPTIONAL" ],
+				[ "Majorities", "OPTIONAL" ]
+			],
+			"name" : "Amendments",
+			"ordinal" : 102
+		},
+		
+		{
+			"fields" : 
+			[
+				[ "LedgerIndex", "OPTIONAL" ],
+				[ "LedgerEntryType", "REQUIRED" ],
+				[ "Flags", "REQUIRED" ],
+				[ "FirstLedgerSequence", "OPTIONAL" ],
+				[ "LastLedgerSequence", "OPTIONAL" ],
+				[ "Hashes", "REQUIRED" ]
+			],
+			"name" : "LedgerHashes",
+			"ordinal" : 104
+		},
+		
+		{
+			"fields" : 
+			[
+				[ "LedgerIndex", "OPTIONAL" ],
+				[ "LedgerEntryType", "REQUIRED" ],
+				[ "Flags", "REQUIRED" ],
+				[ "Account", "REQUIRED" ],
+				[ "Sequence", "REQUIRED" ],
+				[ "TakerPays", "REQUIRED" ],
+				[ "TakerGets", "REQUIRED" ],
+				[ "BookDirectory", "REQUIRED" ],
+				[ "BookNode", "REQUIRED" ],
+				[ "OwnerNode", "REQUIRED" ],
+				[ "PreviousTxnID", "REQUIRED" ],
+				[ "PreviousTxnLgrSeq", "REQUIRED" ],
+				[ "Expiration", "OPTIONAL" ]
+			],
+			"name" : "Offer",
+			"ordinal" : 111
+		},
+		
+		{
+			"fields" : 
+			[
+				[ "LedgerIndex", "OPTIONAL" ],
+				[ "LedgerEntryType", "REQUIRED" ],
+				[ "Flags", "REQUIRED" ],
+				[ "Balance", "REQUIRED" ],
+				[ "LowLimit", "REQUIRED" ],
+				[ "HighLimit", "REQUIRED" ],
+				[ "PreviousTxnID", "REQUIRED" ],
+				[ "PreviousTxnLgrSeq", "REQUIRED" ],
+				[ "LowNode", "OPTIONAL" ],
+				[ "LowQualityIn", "OPTIONAL" ],
+				[ "LowQualityOut", "OPTIONAL" ],
+				[ "HighNode", "OPTIONAL" ],
+				[ "HighQualityIn", "OPTIONAL" ],
+				[ "HighQualityOut", "OPTIONAL" ]
+			],
+			"name" : "RippleState",
+			"ordinal" : 114
+		},
+		
+		{
+			"fields" : 
+			[
+				[ "LedgerIndex", "OPTIONAL" ],
+				[ "LedgerEntryType", "REQUIRED" ],
+				[ "Flags", "REQUIRED" ],
+				[ "BaseFee", "REQUIRED" ],
+				[ "ReferenceFeeUnits", "REQUIRED" ],
+				[ "ReserveBase", "REQUIRED" ],
+				[ "ReserveIncrement", "REQUIRED" ]
+			],
+			"name" : "FeeSettings",
+			"ordinal" : 115
+		},
+		
+		{
+			"fields" : 
+			[
+				[ "LedgerIndex", "OPTIONAL" ],
+				[ "LedgerEntryType", "REQUIRED" ],
+				[ "Flags", "REQUIRED" ],
+				[ "Account", "REQUIRED" ],
+				[ "Destination", "REQUIRED" ],
+				[ "Amount", "REQUIRED" ],
+				[ "Condition", "OPTIONAL" ],
+				[ "CancelAfter", "OPTIONAL" ],
+				[ "FinishAfter", "OPTIONAL" ],
+				[ "SourceTag", "OPTIONAL" ],
+				[ "DestinationTag", "OPTIONAL" ],
+				[ "OwnerNode", "REQUIRED" ],
+				[ "PreviousTxnID", "REQUIRED" ],
+				[ "PreviousTxnLgrSeq", "REQUIRED" ]
+			],
+			"name" : "SuspendedPayment",
+			"ordinal" : 117
+		},
+		
+		{
+			"fields" : 
+			[
+				[ "LedgerIndex", "OPTIONAL" ],
+				[ "LedgerEntryType", "REQUIRED" ],
+				[ "Flags", "REQUIRED" ],
+				[ "Account", "REQUIRED" ],
+				[ "Destination", "REQUIRED" ],
+				[ "Amount", "REQUIRED" ],
+				[ "Balance", "REQUIRED" ],
+				[ "PublicKey", "REQUIRED" ],
+				[ "SettleDelay", "REQUIRED" ],
+				[ "Expiration", "OPTIONAL" ],
+				[ "CancelAfter", "OPTIONAL" ],
+				[ "SourceTag", "OPTIONAL" ],
+				[ "DestinationTag", "OPTIONAL" ],
+				[ "OwnerNode", "REQUIRED" ],
+				[ "PreviousTxnID", "REQUIRED" ],
+				[ "PreviousTxnLgrSeq", "REQUIRED" ]
+			],
+			"name" : "PayChannel",
+			"ordinal" : 120
+		}
+	],
+	"transactions" : 
+	[
+		
+		{
+			"fields" : 
+			[
+				[ "TransactionType", "REQUIRED" ],
+				[ "Flags", "OPTIONAL" ],
+				[ "SourceTag", "OPTIONAL" ],
+				[ "Account", "REQUIRED" ],
+				[ "Sequence", "REQUIRED" ],
+				[ "PreviousTxnID", "OPTIONAL" ],
+				[ "LastLedgerSequence", "OPTIONAL" ],
+				[ "AccountTxnID", "OPTIONAL" ],
+				[ "Fee", "REQUIRED" ],
+				[ "OperationLimit", "OPTIONAL" ],
+				[ "Memos", "OPTIONAL" ],
+				[ "SigningPubKey", "REQUIRED" ],
+				[ "TxnSignature", "OPTIONAL" ],
+				[ "Signers", "OPTIONAL" ],
+				[ "Destination", "REQUIRED" ],
+				[ "Amount", "REQUIRED" ],
+				[ "SendMax", "OPTIONAL" ],
+				[ "Paths", "DEFAULT" ],
+				[ "InvoiceID", "OPTIONAL" ],
+				[ "DestinationTag", "OPTIONAL" ],
+				[ "DeliverMin", "OPTIONAL" ]
+			],
+			"name" : "Payment",
+			"ordinal" : 0
+		},
+		
+		{
+			"fields" : 
+			[
+				[ "TransactionType", "REQUIRED" ],
+				[ "Flags", "OPTIONAL" ],
+				[ "SourceTag", "OPTIONAL" ],
+				[ "Account", "REQUIRED" ],
+				[ "Sequence", "REQUIRED" ],
+				[ "PreviousTxnID", "OPTIONAL" ],
+				[ "LastLedgerSequence", "OPTIONAL" ],
+				[ "AccountTxnID", "OPTIONAL" ],
+				[ "Fee", "REQUIRED" ],
+				[ "OperationLimit", "OPTIONAL" ],
+				[ "Memos", "OPTIONAL" ],
+				[ "SigningPubKey", "REQUIRED" ],
+				[ "TxnSignature", "OPTIONAL" ],
+				[ "Signers", "OPTIONAL" ],
+				[ "Destination", "REQUIRED" ],
+				[ "Amount", "REQUIRED" ],
+				[ "Condition", "OPTIONAL" ],
+				[ "CancelAfter", "OPTIONAL" ],
+				[ "FinishAfter", "OPTIONAL" ],
+				[ "DestinationTag", "OPTIONAL" ]
+			],
+			"name" : "SuspendedPaymentCreate",
+			"ordinal" : 1
+		},
+		
+		{
+			"fields" : 
+			[
+				[ "TransactionType", "REQUIRED" ],
+				[ "Flags", "OPTIONAL" ],
+				[ "SourceTag", "OPTIONAL" ],
+				[ "Account", "REQUIRED" ],
+				[ "Sequence", "REQUIRED" ],
+				[ "PreviousTxnID", "OPTIONAL" ],
+				[ "LastLedgerSequence", "OPTIONAL" ],
+				[ "AccountTxnID", "OPTIONAL" ],
+				[ "Fee", "REQUIRED" ],
+				[ "OperationLimit", "OPTIONAL" ],
+				[ "Memos", "OPTIONAL" ],
+				[ "SigningPubKey", "REQUIRED" ],
+				[ "TxnSignature", "OPTIONAL" ],
+				[ "Signers", "OPTIONAL" ],
+				[ "Owner", "REQUIRED" ],
+				[ "OfferSequence", "REQUIRED" ],
+				[ "Fulfillment", "OPTIONAL" ],
+				[ "Condition", "OPTIONAL" ]
+			],
+			"name" : "SuspendedPaymentFinish",
+			"ordinal" : 2
+		},
+		
+		{
+			"fields" : 
+			[
+				[ "TransactionType", "REQUIRED" ],
+				[ "Flags", "OPTIONAL" ],
+				[ "SourceTag", "OPTIONAL" ],
+				[ "Account", "REQUIRED" ],
+				[ "Sequence", "REQUIRED" ],
+				[ "PreviousTxnID", "OPTIONAL" ],
+				[ "LastLedgerSequence", "OPTIONAL" ],
+				[ "AccountTxnID", "OPTIONAL" ],
+				[ "Fee", "REQUIRED" ],
+				[ "OperationLimit", "OPTIONAL" ],
+				[ "Memos", "OPTIONAL" ],
+				[ "SigningPubKey", "REQUIRED" ],
+				[ "TxnSignature", "OPTIONAL" ],
+				[ "Signers", "OPTIONAL" ],
+				[ "EmailHash", "OPTIONAL" ],
+				[ "WalletLocator", "OPTIONAL" ],
+				[ "WalletSize", "OPTIONAL" ],
+				[ "MessageKey", "OPTIONAL" ],
+				[ "Domain", "OPTIONAL" ],
+				[ "TransferRate", "OPTIONAL" ],
+				[ "SetFlag", "OPTIONAL" ],
+				[ "ClearFlag", "OPTIONAL" ]
+			],
+			"name" : "AccountSet",
+			"ordinal" : 3
+		},
+		
+		{
+			"fields" : 
+			[
+				[ "TransactionType", "REQUIRED" ],
+				[ "Flags", "OPTIONAL" ],
+				[ "SourceTag", "OPTIONAL" ],
+				[ "Account", "REQUIRED" ],
+				[ "Sequence", "REQUIRED" ],
+				[ "PreviousTxnID", "OPTIONAL" ],
+				[ "LastLedgerSequence", "OPTIONAL" ],
+				[ "AccountTxnID", "OPTIONAL" ],
+				[ "Fee", "REQUIRED" ],
+				[ "OperationLimit", "OPTIONAL" ],
+				[ "Memos", "OPTIONAL" ],
+				[ "SigningPubKey", "REQUIRED" ],
+				[ "TxnSignature", "OPTIONAL" ],
+				[ "Signers", "OPTIONAL" ],
+				[ "Owner", "REQUIRED" ],
+				[ "OfferSequence", "REQUIRED" ]
+			],
+			"name" : "SuspendedPaymentCancel",
+			"ordinal" : 4
+		},
+		
+		{
+			"fields" : 
+			[
+				[ "TransactionType", "REQUIRED" ],
+				[ "Flags", "OPTIONAL" ],
+				[ "SourceTag", "OPTIONAL" ],
+				[ "Account", "REQUIRED" ],
+				[ "Sequence", "REQUIRED" ],
+				[ "PreviousTxnID", "OPTIONAL" ],
+				[ "LastLedgerSequence", "OPTIONAL" ],
+				[ "AccountTxnID", "OPTIONAL" ],
+				[ "Fee", "REQUIRED" ],
+				[ "OperationLimit", "OPTIONAL" ],
+				[ "Memos", "OPTIONAL" ],
+				[ "SigningPubKey", "REQUIRED" ],
+				[ "TxnSignature", "OPTIONAL" ],
+				[ "Signers", "OPTIONAL" ],
+				[ "RegularKey", "OPTIONAL" ]
+			],
+			"name" : "SetRegularKey",
+			"ordinal" : 5
+		},
+		
+		{
+			"fields" : 
+			[
+				[ "TransactionType", "REQUIRED" ],
+				[ "Flags", "OPTIONAL" ],
+				[ "SourceTag", "OPTIONAL" ],
+				[ "Account", "REQUIRED" ],
+				[ "Sequence", "REQUIRED" ],
+				[ "PreviousTxnID", "OPTIONAL" ],
+				[ "LastLedgerSequence", "OPTIONAL" ],
+				[ "AccountTxnID", "OPTIONAL" ],
+				[ "Fee", "REQUIRED" ],
+				[ "OperationLimit", "OPTIONAL" ],
+				[ "Memos", "OPTIONAL" ],
+				[ "SigningPubKey", "REQUIRED" ],
+				[ "TxnSignature", "OPTIONAL" ],
+				[ "Signers", "OPTIONAL" ],
+				[ "TakerPays", "REQUIRED" ],
+				[ "TakerGets", "REQUIRED" ],
+				[ "Expiration", "OPTIONAL" ],
+				[ "OfferSequence", "OPTIONAL" ]
+			],
+			"name" : "OfferCreate",
+			"ordinal" : 7
+		},
+		
+		{
+			"fields" : 
+			[
+				[ "TransactionType", "REQUIRED" ],
+				[ "Flags", "OPTIONAL" ],
+				[ "SourceTag", "OPTIONAL" ],
+				[ "Account", "REQUIRED" ],
+				[ "Sequence", "REQUIRED" ],
+				[ "PreviousTxnID", "OPTIONAL" ],
+				[ "LastLedgerSequence", "OPTIONAL" ],
+				[ "AccountTxnID", "OPTIONAL" ],
+				[ "Fee", "REQUIRED" ],
+				[ "OperationLimit", "OPTIONAL" ],
+				[ "Memos", "OPTIONAL" ],
+				[ "SigningPubKey", "REQUIRED" ],
+				[ "TxnSignature", "OPTIONAL" ],
+				[ "Signers", "OPTIONAL" ],
+				[ "OfferSequence", "REQUIRED" ]
+			],
+			"name" : "OfferCancel",
+			"ordinal" : 8
+		},
+		
+		{
+			"fields" : 
+			[
+				[ "TransactionType", "REQUIRED" ],
+				[ "Flags", "OPTIONAL" ],
+				[ "SourceTag", "OPTIONAL" ],
+				[ "Account", "REQUIRED" ],
+				[ "Sequence", "REQUIRED" ],
+				[ "PreviousTxnID", "OPTIONAL" ],
+				[ "LastLedgerSequence", "OPTIONAL" ],
+				[ "AccountTxnID", "OPTIONAL" ],
+				[ "Fee", "REQUIRED" ],
+				[ "OperationLimit", "OPTIONAL" ],
+				[ "Memos", "OPTIONAL" ],
+				[ "SigningPubKey", "REQUIRED" ],
+				[ "TxnSignature", "OPTIONAL" ],
+				[ "Signers", "OPTIONAL" ],
+				[ "Target", "OPTIONAL" ],
+				[ "Expiration", "OPTIONAL" ]
+			],
+			"name" : "TicketCreate",
+			"ordinal" : 10
+		},
+		
+		{
+			"fields" : 
+			[
+				[ "TransactionType", "REQUIRED" ],
+				[ "Flags", "OPTIONAL" ],
+				[ "SourceTag", "OPTIONAL" ],
+				[ "Account", "REQUIRED" ],
+				[ "Sequence", "REQUIRED" ],
+				[ "PreviousTxnID", "OPTIONAL" ],
+				[ "LastLedgerSequence", "OPTIONAL" ],
+				[ "AccountTxnID", "OPTIONAL" ],
+				[ "Fee", "REQUIRED" ],
+				[ "OperationLimit", "OPTIONAL" ],
+				[ "Memos", "OPTIONAL" ],
+				[ "SigningPubKey", "REQUIRED" ],
+				[ "TxnSignature", "OPTIONAL" ],
+				[ "Signers", "OPTIONAL" ],
+				[ "TicketID", "REQUIRED" ]
+			],
+			"name" : "TicketCancel",
+			"ordinal" : 11
+		},
+		
+		{
+			"fields" : 
+			[
+				[ "TransactionType", "REQUIRED" ],
+				[ "Flags", "OPTIONAL" ],
+				[ "SourceTag", "OPTIONAL" ],
+				[ "Account", "REQUIRED" ],
+				[ "Sequence", "REQUIRED" ],
+				[ "PreviousTxnID", "OPTIONAL" ],
+				[ "LastLedgerSequence", "OPTIONAL" ],
+				[ "AccountTxnID", "OPTIONAL" ],
+				[ "Fee", "REQUIRED" ],
+				[ "OperationLimit", "OPTIONAL" ],
+				[ "Memos", "OPTIONAL" ],
+				[ "SigningPubKey", "REQUIRED" ],
+				[ "TxnSignature", "OPTIONAL" ],
+				[ "Signers", "OPTIONAL" ],
+				[ "SignerQuorum", "REQUIRED" ],
+				[ "SignerEntries", "OPTIONAL" ]
+			],
+			"name" : "SignerListSet",
+			"ordinal" : 12
+		},
+		
+		{
+			"fields" : 
+			[
+				[ "TransactionType", "REQUIRED" ],
+				[ "Flags", "OPTIONAL" ],
+				[ "SourceTag", "OPTIONAL" ],
+				[ "Account", "REQUIRED" ],
+				[ "Sequence", "REQUIRED" ],
+				[ "PreviousTxnID", "OPTIONAL" ],
+				[ "LastLedgerSequence", "OPTIONAL" ],
+				[ "AccountTxnID", "OPTIONAL" ],
+				[ "Fee", "REQUIRED" ],
+				[ "OperationLimit", "OPTIONAL" ],
+				[ "Memos", "OPTIONAL" ],
+				[ "SigningPubKey", "REQUIRED" ],
+				[ "TxnSignature", "OPTIONAL" ],
+				[ "Signers", "OPTIONAL" ],
+				[ "Destination", "REQUIRED" ],
+				[ "Amount", "REQUIRED" ],
+				[ "SettleDelay", "REQUIRED" ],
+				[ "PublicKey", "REQUIRED" ],
+				[ "CancelAfter", "OPTIONAL" ],
+				[ "DestinationTag", "OPTIONAL" ]
+			],
+			"name" : "PaymentChannelCreate",
+			"ordinal" : 13
+		},
+		
+		{
+			"fields" : 
+			[
+				[ "TransactionType", "REQUIRED" ],
+				[ "Flags", "OPTIONAL" ],
+				[ "SourceTag", "OPTIONAL" ],
+				[ "Account", "REQUIRED" ],
+				[ "Sequence", "REQUIRED" ],
+				[ "PreviousTxnID", "OPTIONAL" ],
+				[ "LastLedgerSequence", "OPTIONAL" ],
+				[ "AccountTxnID", "OPTIONAL" ],
+				[ "Fee", "REQUIRED" ],
+				[ "OperationLimit", "OPTIONAL" ],
+				[ "Memos", "OPTIONAL" ],
+				[ "SigningPubKey", "REQUIRED" ],
+				[ "TxnSignature", "OPTIONAL" ],
+				[ "Signers", "OPTIONAL" ],
+				[ "Channel", "REQUIRED" ],
+				[ "Amount", "REQUIRED" ],
+				[ "Expiration", "OPTIONAL" ]
+			],
+			"name" : "PaymentChannelFund",
+			"ordinal" : 14
+		},
+		
+		{
+			"fields" : 
+			[
+				[ "TransactionType", "REQUIRED" ],
+				[ "Flags", "OPTIONAL" ],
+				[ "SourceTag", "OPTIONAL" ],
+				[ "Account", "REQUIRED" ],
+				[ "Sequence", "REQUIRED" ],
+				[ "PreviousTxnID", "OPTIONAL" ],
+				[ "LastLedgerSequence", "OPTIONAL" ],
+				[ "AccountTxnID", "OPTIONAL" ],
+				[ "Fee", "REQUIRED" ],
+				[ "OperationLimit", "OPTIONAL" ],
+				[ "Memos", "OPTIONAL" ],
+				[ "SigningPubKey", "REQUIRED" ],
+				[ "TxnSignature", "OPTIONAL" ],
+				[ "Signers", "OPTIONAL" ],
+				[ "Channel", "REQUIRED" ],
+				[ "Amount", "OPTIONAL" ],
+				[ "Balance", "OPTIONAL" ],
+				[ "Signature", "OPTIONAL" ],
+				[ "PublicKey", "OPTIONAL" ]
+			],
+			"name" : "PaymentChannelClaim",
+			"ordinal" : 15
+		},
+		
+		{
+			"fields" : 
+			[
+				[ "TransactionType", "REQUIRED" ],
+				[ "Flags", "OPTIONAL" ],
+				[ "SourceTag", "OPTIONAL" ],
+				[ "Account", "REQUIRED" ],
+				[ "Sequence", "REQUIRED" ],
+				[ "PreviousTxnID", "OPTIONAL" ],
+				[ "LastLedgerSequence", "OPTIONAL" ],
+				[ "AccountTxnID", "OPTIONAL" ],
+				[ "Fee", "REQUIRED" ],
+				[ "OperationLimit", "OPTIONAL" ],
+				[ "Memos", "OPTIONAL" ],
+				[ "SigningPubKey", "REQUIRED" ],
+				[ "TxnSignature", "OPTIONAL" ],
+				[ "Signers", "OPTIONAL" ],
+				[ "LimitAmount", "OPTIONAL" ],
+				[ "QualityIn", "OPTIONAL" ],
+				[ "QualityOut", "OPTIONAL" ]
+			],
+			"name" : "TrustSet",
+			"ordinal" : 20
+		},
+		
+		{
+			"fields" : 
+			[
+				[ "TransactionType", "REQUIRED" ],
+				[ "Flags", "OPTIONAL" ],
+				[ "SourceTag", "OPTIONAL" ],
+				[ "Account", "REQUIRED" ],
+				[ "Sequence", "REQUIRED" ],
+				[ "PreviousTxnID", "OPTIONAL" ],
+				[ "LastLedgerSequence", "OPTIONAL" ],
+				[ "AccountTxnID", "OPTIONAL" ],
+				[ "Fee", "REQUIRED" ],
+				[ "OperationLimit", "OPTIONAL" ],
+				[ "Memos", "OPTIONAL" ],
+				[ "SigningPubKey", "REQUIRED" ],
+				[ "TxnSignature", "OPTIONAL" ],
+				[ "Signers", "OPTIONAL" ],
+				[ "LedgerSequence", "REQUIRED" ],
+				[ "Amendment", "REQUIRED" ]
+			],
+			"name" : "EnableAmendment",
+			"ordinal" : 100
+		},
+		
+		{
+			"fields" : 
+			[
+				[ "TransactionType", "REQUIRED" ],
+				[ "Flags", "OPTIONAL" ],
+				[ "SourceTag", "OPTIONAL" ],
+				[ "Account", "REQUIRED" ],
+				[ "Sequence", "REQUIRED" ],
+				[ "PreviousTxnID", "OPTIONAL" ],
+				[ "LastLedgerSequence", "OPTIONAL" ],
+				[ "AccountTxnID", "OPTIONAL" ],
+				[ "Fee", "REQUIRED" ],
+				[ "OperationLimit", "OPTIONAL" ],
+				[ "Memos", "OPTIONAL" ],
+				[ "SigningPubKey", "REQUIRED" ],
+				[ "TxnSignature", "OPTIONAL" ],
+				[ "Signers", "OPTIONAL" ],
+				[ "LedgerSequence", "OPTIONAL" ],
+				[ "BaseFee", "REQUIRED" ],
+				[ "ReferenceFeeUnits", "REQUIRED" ],
+				[ "ReserveBase", "REQUIRED" ],
+				[ "ReserveIncrement", "REQUIRED" ]
+			],
+			"name" : "SetFee",
+			"ordinal" : 101
+		}
+	]
+}

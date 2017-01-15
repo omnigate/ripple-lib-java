@@ -56,6 +56,7 @@ public class TxFormat extends Format {
         put(Field.AccountTxnID,        Requirement.OPTIONAL);
         put(Field.LastLedgerSequence,  Requirement.OPTIONAL);
         put(Field.Memos,               Requirement.OPTIONAL);
+        put(Field.Signers,             Requirement.OPTIONAL);
     }
 
     @Override
@@ -111,14 +112,16 @@ public class TxFormat extends Format {
             Field.SendMax,         Requirement.OPTIONAL,
             Field.Paths,           Requirement.DEFAULT,
             Field.InvoiceID,       Requirement.OPTIONAL,
-            Field.DestinationTag,  Requirement.OPTIONAL);
+            Field.DestinationTag,  Requirement.OPTIONAL,
+            Field.DeliverMin,  Requirement.OPTIONAL
+    );
 
 
     static public TxFormat SuspendedPaymentCreate = new TxFormat(
             TransactionType.SuspendedPaymentCreate,
             Field.Destination,      Requirement.REQUIRED,
             Field.Amount,           Requirement.REQUIRED,
-            Field.Digest,           Requirement.OPTIONAL,
+            Field.Condition,        Requirement.OPTIONAL,
             Field.CancelAfter,      Requirement.OPTIONAL,
             Field.FinishAfter,      Requirement.OPTIONAL,
             Field.DestinationTag,   Requirement.OPTIONAL);
@@ -127,9 +130,8 @@ public class TxFormat extends Format {
             TransactionType.SuspendedPaymentFinish,
             Field.Owner,            Requirement.REQUIRED,
             Field.OfferSequence,    Requirement.REQUIRED,
-            Field.Method,           Requirement.OPTIONAL,
-            Field.Digest,           Requirement.OPTIONAL,
-            Field.Proof,            Requirement.OPTIONAL);
+            Field.Fulfillment,      Requirement.OPTIONAL,
+            Field.Condition,        Requirement.OPTIONAL);
 
     static public TxFormat SuspendedPaymentCancel = new TxFormat(
             TransactionType.SuspendedPaymentCancel,
@@ -138,6 +140,7 @@ public class TxFormat extends Format {
 
     static public TxFormat EnableAmendment = new TxFormat(
             TransactionType.EnableAmendment,
+            Field.LedgerSequence,      Requirement.REQUIRED,
             Field.Amendment,      Requirement.REQUIRED);
 
     static public TxFormat SetFee = new TxFormat(
@@ -145,5 +148,36 @@ public class TxFormat extends Format {
             Field.BaseFee,              Requirement.REQUIRED,
             Field.ReferenceFeeUnits,    Requirement.REQUIRED,
             Field.ReserveBase,          Requirement.REQUIRED,
-            Field.ReserveIncrement,     Requirement.REQUIRED);
+            Field.LedgerSequence,       Requirement.OPTIONAL,
+            Field.ReserveIncrement,     Requirement.REQUIRED
+    );
+
+    static public TxFormat SignerListSet = new TxFormat(
+            TransactionType.SignerListSet,
+            Field.SignerQuorum,              Requirement.REQUIRED,
+            Field.SignerEntries,              Requirement.OPTIONAL
+    );
+    static public TxFormat PaymentChannelCreate = new TxFormat(
+            TransactionType.PaymentChannelCreate,
+            Field.Destination,              Requirement.REQUIRED,
+            Field.Amount,              Requirement.REQUIRED,
+            Field.SettleDelay,              Requirement.REQUIRED,
+            Field.PublicKey,              Requirement.REQUIRED,
+            Field.CancelAfter,              Requirement.OPTIONAL,
+            Field.DestinationTag,              Requirement.OPTIONAL
+    );
+    static public TxFormat PaymentChannelFund = new TxFormat(
+            TransactionType.PaymentChannelFund,
+            Field.Channel,              Requirement.REQUIRED,
+            Field.Amount,              Requirement.REQUIRED,
+            Field.Expiration,              Requirement.OPTIONAL
+    );
+    static public TxFormat PaymentChannelClaim = new TxFormat(
+            TransactionType.PaymentChannelClaim,
+            Field.Channel,              Requirement.REQUIRED,
+            Field.Amount,              Requirement.OPTIONAL,
+            Field.Balance,              Requirement.OPTIONAL,
+            Field.Signature,              Requirement.OPTIONAL,
+            Field.PublicKey,              Requirement.OPTIONAL
+    );
 }
